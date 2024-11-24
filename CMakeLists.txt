@@ -157,6 +157,7 @@ endif()
 
 if(BUILD_EXAMPLES OR BUILD_PLAYGROUND)
     add_subdirectory(support)
+    add_subdirectory(addons)
 endif()
 
 if(BUILD_TOOLS)
